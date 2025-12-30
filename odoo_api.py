@@ -124,10 +124,10 @@ class OdooAPI:
 def main():
     # Example usage - replace with your actual credentials
     config = OdooConfig(
-        url="https://your-odoo-instance.com",
-        database="your_database",
-        username="your_username",
-        password="your_password_or_api_key"
+        url="https://fwapparel.odoo.com",
+        database="fwapparel",
+        username="fwapparel@protonmail.com",
+        password="YOUR_API_KEY_HERE"
     )
 
     api = OdooAPI(config)
